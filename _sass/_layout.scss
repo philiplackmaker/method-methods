@@ -9,11 +9,84 @@
  $max-width: 1080px;
 
 .site-header {
-    min-height: 56px;
-    background:red;
+    min-height: 60px;
+    background: #ffffff;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-carousel{
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+     div img{
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
+}
+
+.title-home{
+  @include centerer;
+  z-index: 1000;
+}
+
+.projects{
+  @include outer-container;
+
+  .home-project{
+    position: relative;
+    @include span-columns(3);
+    height: 500px;
+    background-color: red;
+    cursor: pointer;
+  }
+
+    .project-info{
+      opacity: 0;
+    }
+
+  .home-project:hover{
+
+    .project-info{
+      @include centerer;
+      z-index: 10000;
+      width: 100%;
+      background-color: white;
+      opacity: 1;
+      height: 90px;
+      transition: opacity .25s ease-in-out;
+     -moz-transition: opacity .25s ease-in-out;
+     -webkit-transition: opacity .25s ease-in-out;
+    }
+
+
+  }
+
+  img{
+    height: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
 
 .site-title {
     font-size: 26px;
