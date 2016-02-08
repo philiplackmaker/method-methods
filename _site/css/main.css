@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 h1 {
-  font: "chippewa-falls", sans-serif;
+  font-family: "chippewa-falls", sans-serif;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -538,7 +538,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 h1 {
-  font: "chippewa-falls", sans-serif;
+  font-family: "chippewa-falls", sans-serif;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
