@@ -8,3 +8,11 @@ $(document).ready(function(){
 		autoplaySpeed: 4000,
   });
 });
+
+var feed = new Instafeed({
+    get: 'tagged',
+    tagName: 'awesome',
+    clientId: 'fe742be948e14625b25d7d07677c7003',
+    userId: 'calicomelton',
+});
+feed.run();
