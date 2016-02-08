@@ -14,9 +14,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 
- h1{
+ h1, h2{
    font-family: $header-font;
    font-size: 60px;
+   line-height: 45px;
    text-align: center;
    color: $text-color;
    -webkit-text-size-adjust: 100%;
