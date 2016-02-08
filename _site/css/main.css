@@ -62,7 +62,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 60px; }
+  margin-left: 0px; }
 
 li > ul,
 li > ol {
@@ -207,7 +207,11 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1000; }
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+  width: 60%;
+  height: auto;
+  padding: 50px; }
 
 .projects {
   max-width: 1080px;
@@ -613,7 +617,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 60px; }
+  margin-left: 0px; }
 
 li > ul,
 li > ol {
@@ -777,7 +781,11 @@ body:before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1000; }
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+  width: 60%;
+  height: auto;
+  padding: 50px; }
 
 .projects {
   max-width: 1080px;
