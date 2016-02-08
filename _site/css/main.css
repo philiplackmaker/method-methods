@@ -13,6 +13,7 @@ dl, dd, ol, ul, figure {
 h1 {
   font-family: "chippewa-falls", sans-serif;
   font-size: 60px;
+  text-align: center;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -541,6 +542,7 @@ dl, dd, ol, ul, figure {
 h1 {
   font-family: "chippewa-falls", sans-serif;
   font-size: 60px;
+  text-align: center;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
