@@ -10,7 +10,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-h1, h2 {
+h1 {
   font-family: "chippewa-falls", sans-serif;
   font-size: 60px;
   line-height: 45px;
@@ -23,11 +23,8 @@ h1, h2 {
   font-feature-settings: "kern" 1;
   font-kerning: normal; }
 
-p {
-  font-family: "chippewa-falls", sans-serif;
-  font-size: 60px;
-  line-height: 45px;
-  text-align: center;
+p, h2 {
+  font-family: "tondo", sans-serif;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -553,7 +550,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-h1, h2 {
+h1 {
   font-family: "chippewa-falls", sans-serif;
   font-size: 60px;
   line-height: 45px;
@@ -566,11 +563,8 @@ h1, h2 {
   font-feature-settings: "kern" 1;
   font-kerning: normal; }
 
-p {
-  font-family: "chippewa-falls", sans-serif;
-  font-size: 60px;
-  line-height: 45px;
-  text-align: center;
+p, h2 {
+  font-family: "tondo", sans-serif;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;

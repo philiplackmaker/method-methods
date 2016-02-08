@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 
- h1, h2{
+ h1{
    font-family: $header-font;
    font-size: 60px;
    line-height: 45px;
@@ -28,11 +28,8 @@ dl, dd, ol, ul, figure {
    font-kerning: normal;
  }
 
- p{
-   font-family: $header-font;
-   font-size: 60px;
-   line-height: 45px;
-   text-align: center;
+ p, h2{
+   font-family: $body-font;
    color: $text-color;
    -webkit-text-size-adjust: 100%;
    -webkit-font-feature-settings: "kern" 1;
