@@ -9,7 +9,7 @@
 title: Calico Melton - Surface pattern designer
 email: calicometlon@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Calico Melton is  surface pattern deisgner based in London.
+  Calico Melton is  surface pattern deisgner based in Sydney & London.
 baseurl: "/calicowebsite" # the subpath of your site, e.g. /blog
 url: "http://philiplackmaker.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
