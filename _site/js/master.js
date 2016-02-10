@@ -9,10 +9,18 @@ $(document).ready(function(){
   });
 });
 
-var feed = new Instafeed({
-    get: 'tagged',
-    tagName: 'awesome',
-    clientId: 'fe742be948e14625b25d7d07677c7003',
-    userId: 'calicomelton',
-});
-feed.run();
+// var feed = new Instafeed({
+//     get: 'user',
+//     tagName: 'awesome',
+//     clientId: 'fe742be948e14625b25d7d07677c7003',
+//     userId: '23449416',
+// });
+// feed.run();
+// 
+//
+// var feed = new Instafeed({
+//        get: 'tagged',
+//        tagName: 'awesome',
+//        clientId: 'fe742be948e14625b25d7d07677c7003'
+//    });
+//    feed.run();
