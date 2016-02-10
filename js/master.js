@@ -9,6 +9,12 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function(){
+	$('#about').click(function(){
+    // $('.info').animate({'top' : '100px'},1500);
+	});
+});
+
 // var feed = new Instafeed({
 //     get: 'user',
 //     tagName: 'awesome',
@@ -16,7 +22,7 @@ $(document).ready(function(){
 //     userId: '23449416',
 // });
 // feed.run();
-// 
+//
 //
 // var feed = new Instafeed({
 //        get: 'tagged',

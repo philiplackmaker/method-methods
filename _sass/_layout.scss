@@ -9,7 +9,7 @@ $max-width: 1080px;
     background: #ffffff;
     position: fixed;
     width: 100%;
-    z-index: 10000;
+    z-index: 100000;
 }
 
 @mixin centerer {
@@ -95,10 +95,25 @@ $max-width: 1080px;
 }
 
 .site-nav {
-    float: right;
-    position: fixed;
+    position: relative;
     line-height: 56px;
+    top: 10%;
 }
+
+.center-nav{
+  @include centerer;
+  padding-top: 60px;
+}
+
+.info{
+  width: 100%;
+  height: 300px;
+  top:-300px;
+  position:absolute;
+  background-color: red;
+  z-index: 100000;
+}
+
 
 
 /**

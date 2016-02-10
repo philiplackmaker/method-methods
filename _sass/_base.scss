@@ -1,6 +1,9 @@
 /**
  * Reset some basic elements
  */
+
+@import "bourbon/bourbon";
+@import "neat/neat";
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -79,6 +82,7 @@ li {
 }
 
 ul{
+  padding-top: 10px;
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -98,7 +102,6 @@ li{
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
-
 
 
 /**
@@ -129,20 +132,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
-
-
 /**
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    @include outer-container;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -152,7 +146,6 @@ h1, h2, h3, h4, h5, h6 {
         padding-left: $spacing-unit / 2;
     }
 }
-
 
 
 /**
