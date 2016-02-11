@@ -1,4 +1,8 @@
+
+
+
 $(document).ready(function(){
+
   $('.home-carousel').slick({
     dots: true,
 		infinite: true,
@@ -7,12 +11,21 @@ $(document).ready(function(){
 		autoplay: true,
 		autoplaySpeed: 4000,
   });
-});
 
-$(document).ready(function(){
-	$('#about').click(function(){
-    // $('.info').animate({'top' : '100px'},1500);
+	$('#about').click(function(e){
+    e.preventDefault();
+    $('body').addClass('stop-scrolling');
+    console.log('hi');
+    $('.info').animate({'top' : '0px'},1000);
 	});
+
+  $('#close').click(function(e){
+    e.preventDefault();
+    $('body').removeClass('stop-scrolling');
+    console.log('hi');
+    $('.info').animate({'top' : '-1000px'},1000);
+	});
+
 });
 
 // var feed = new Instafeed({

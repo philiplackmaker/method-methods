@@ -30,6 +30,21 @@ dl, dd, ol, ul, figure {
    font-feature-settings: "kern" 1;
    font-kerning: normal;
  }
+ h3{
+   font-family: $header-font;
+   font-size: 20px;
+   margin-left: 30px;
+   margin-right: 30px;
+   text-align: center;
+   color: $text-color;
+   -webkit-text-size-adjust: 100%;
+   -webkit-font-feature-settings: "kern" 1;
+   -moz-font-feature-settings: "kern" 1;
+   -o-font-feature-settings: "kern" 1;
+   font-feature-settings: "kern" 1;
+   font-kerning: normal;
+   display: inline;
+ }
 
  p, h2{
    font-family: $body-font;
@@ -91,7 +106,6 @@ ul{
 
 li{
   display: inline;
-  margin-right: 20px;
 }
 
 
