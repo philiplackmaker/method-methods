@@ -16,17 +16,20 @@ $(document).ready(function(){
     e.preventDefault();
     $('body').addClass('stop-scrolling');
     console.log('hi');
-    $('.info').animate({'top' : '0px'},1000);
+    $('.info').animate({'top' : '0px'},750);
 	});
 
   $('#close').click(function(e){
     e.preventDefault();
     $('body').removeClass('stop-scrolling');
     console.log('hi');
-    $('.info').animate({'top' : '-1000px'},1000);
+    $('.info').animate({'top' : '-1000px'},500);
 	});
 
 });
+
+window.sr = ScrollReveal();
+sr.reveal('.home-project');
 
 // var feed = new Instafeed({
 //     get: 'user',
