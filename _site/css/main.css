@@ -112,10 +112,9 @@ ul a {
   transition: color 500ms cubic-bezier(0.19, 1, 0.22, 1), border-bottom 500ms cubic-bezier(0.19, 1, 0.22, 1);
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid red;
   padding-bottom: 0; }
   ul a:hover {
-    color: red; }
+    color: #90CAF5; }
 
 /**
  * Wrapper
@@ -181,8 +180,7 @@ html {
 .projects {
   max-width: 1080px;
   margin-left: auto;
-  margin-right: auto;
-  padding-top: 100px; }
+  margin-right: auto; }
   .projects::after {
     clear: both;
     content: "";
@@ -193,8 +191,9 @@ html {
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
-    height: 500px;
-    cursor: pointer; }
+    height: 300px;
+    cursor: pointer;
+    background-color: black; }
     .projects .home-project:last-child {
       margin-right: 0; }
   .projects .project-info {
@@ -579,10 +578,9 @@ ul a {
   transition: color 500ms cubic-bezier(0.19, 1, 0.22, 1), border-bottom 500ms cubic-bezier(0.19, 1, 0.22, 1);
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid red;
   padding-bottom: 0; }
   ul a:hover {
-    color: red; }
+    color: #90CAF5; }
 
 /**
  * Wrapper
@@ -667,8 +665,7 @@ body:before {
 .projects {
   max-width: 1080px;
   margin-left: auto;
-  margin-right: auto;
-  padding-top: 100px; }
+  margin-right: auto; }
   .projects::after {
     clear: both;
     content: "";
@@ -679,8 +676,9 @@ body:before {
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
-    height: 500px;
-    cursor: pointer; }
+    height: 300px;
+    cursor: pointer;
+    background-color: black; }
     .projects .home-project:last-child {
       margin-right: 0; }
   .projects .project-info {

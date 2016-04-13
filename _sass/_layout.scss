@@ -44,13 +44,14 @@ $max-width: 1080px;
 
 .projects{
   @include outer-container;
-  padding-top: 100px;
+  // padding-top: 100px;
 
   .home-project{
     position: relative;
     @include span-columns(3);
-    height: 500px;
+    height: 300px;
     cursor: pointer;
+    background-color: black;
   }
 
   .project-info{
