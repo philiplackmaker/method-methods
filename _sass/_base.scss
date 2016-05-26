@@ -21,7 +21,7 @@ dl, dd, ol, ul, figure {
    font-family: $header-font;
    font-size: 60px;
    line-height: 45px;
-   text-align: center;
+   text-align: left;
    color: $text-color;
    -webkit-text-size-adjust: 100%;
    -webkit-font-feature-settings: "kern" 1;
@@ -33,9 +33,7 @@ dl, dd, ol, ul, figure {
  h3{
    font-family: $header-font;
    font-size: 20px;
-   margin-left: 30px;
-   margin-right: 30px;
-   text-align: center;
+   text-align: left;
    color: $text-color;
    -webkit-text-size-adjust: 100%;
    -webkit-font-feature-settings: "kern" 1;
@@ -46,9 +44,11 @@ dl, dd, ol, ul, figure {
    display: inline;
  }
 
- p, h2{
+ h2{
    font-family: $body-font;
    color: $text-color;
+   font-size: 30px;
+   padding-top: 10px;
    -webkit-text-size-adjust: 100%;
    -webkit-font-feature-settings: "kern" 1;
    -moz-font-feature-settings: "kern" 1;
@@ -57,7 +57,20 @@ dl, dd, ol, ul, figure {
    font-kerning: normal;
  }
 
-
+ h4{
+   font-family: $header-font;
+   margin-bottom: 20px;
+   font-size: 20px;
+   text-align: left;
+   color: $text-color;
+   -webkit-text-size-adjust: 100%;
+   -webkit-font-feature-settings: "kern" 1;
+   -moz-font-feature-settings: "kern" 1;
+   -o-font-feature-settings: "kern" 1;
+   font-feature-settings: "kern" 1;
+   font-kerning: normal;
+   display: inline;
+ }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm

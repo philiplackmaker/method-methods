@@ -20,7 +20,7 @@ h1 {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 60px;
   line-height: 45px;
-  text-align: center;
+  text-align: left;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -32,9 +32,7 @@ h1 {
 h3 {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
-  text-align: center;
+  text-align: left;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -44,15 +42,31 @@ h3 {
   font-kerning: normal;
   display: inline; }
 
-p, h2 {
+h2 {
   font-family: "Helvetica Neue", sans-serif;
   color: #111;
+  font-size: 30px;
+  padding-top: 10px;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal; }
+
+h4 {
+  font-family: "Helvetica Neue", sans-serif;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: left;
+  color: #111;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: inline; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -94,7 +108,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: 300; }
 
 /**
  * Links
@@ -151,7 +165,6 @@ html {
 .site-header {
   min-height: 60px;
   background: #ffffff;
-  position: fixed;
   width: 100%;
   z-index: 100000; }
 
@@ -177,10 +190,29 @@ html {
   height: auto;
   padding: 50px; }
 
+.howtouse {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  padding: 10px;
+  background-color: #0EC6D9; }
+  .howtouse::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .howtouse h2 {
+    color: white;
+    text-align: center; }
+  .howtouse h4 {
+    color: white;
+    text-align: center; }
+
 .projects {
   max-width: 1080px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-top: 20px; }
   .projects::after {
     clear: both;
     content: "";
@@ -192,25 +224,13 @@ html {
     margin-right: 2.35765%;
     width: 23.23176%;
     height: 300px;
+    margin-bottom: 30px;
     cursor: pointer;
-    background-color: black; }
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px; }
     .projects .home-project:last-child {
       margin-right: 0; }
-  .projects .project-info {
-    opacity: 0; }
-  .projects .home-project:hover .project-info {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10000;
-    width: 100%;
-    background-color: white;
-    opacity: 1;
-    height: 90px;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out; }
   .projects img {
     height: 100%; }
 
@@ -486,7 +506,7 @@ h1 {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 60px;
   line-height: 45px;
-  text-align: center;
+  text-align: left;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -498,9 +518,7 @@ h1 {
 h3 {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
-  text-align: center;
+  text-align: left;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -510,15 +528,31 @@ h3 {
   font-kerning: normal;
   display: inline; }
 
-p, h2 {
+h2 {
   font-family: "Helvetica Neue", sans-serif;
   color: #111;
+  font-size: 30px;
+  padding-top: 10px;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal; }
+
+h4 {
+  font-family: "Helvetica Neue", sans-serif;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: left;
+  color: #111;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: inline; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -560,7 +594,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: 300; }
 
 /**
  * Links
@@ -636,7 +670,6 @@ body:before {
 .site-header {
   min-height: 60px;
   background: #ffffff;
-  position: fixed;
   width: 100%;
   z-index: 100000; }
 
@@ -662,10 +695,29 @@ body:before {
   height: auto;
   padding: 50px; }
 
+.howtouse {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  padding: 10px;
+  background-color: #0EC6D9; }
+  .howtouse::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .howtouse h2 {
+    color: white;
+    text-align: center; }
+  .howtouse h4 {
+    color: white;
+    text-align: center; }
+
 .projects {
   max-width: 1080px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-top: 20px; }
   .projects::after {
     clear: both;
     content: "";
@@ -677,25 +729,13 @@ body:before {
     margin-right: 2.35765%;
     width: 23.23176%;
     height: 300px;
+    margin-bottom: 30px;
     cursor: pointer;
-    background-color: black; }
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px; }
     .projects .home-project:last-child {
       margin-right: 0; }
-  .projects .project-info {
-    opacity: 0; }
-  .projects .home-project:hover .project-info {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10000;
-    width: 100%;
-    background-color: white;
-    opacity: 1;
-    height: 90px;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out; }
   .projects img {
     height: 100%; }
 

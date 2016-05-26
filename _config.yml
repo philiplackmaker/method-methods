@@ -6,11 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Calico Melton - Surface pattern designer
-email: calicometlon@domain.com
+title: Method methods
+email: plackmaker@method
 description: > # this means to ignore newlines until "baseurl:"
-  Calico Melton is  surface pattern deisgner based in Sydney & London.
-baseurl: "/calicowebsite" # the subpath of your site, e.g. /blog
+baseurl: "/method-methods" # the subpath of your site, e.g. /blog
 url: "http://philiplackmaker.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
